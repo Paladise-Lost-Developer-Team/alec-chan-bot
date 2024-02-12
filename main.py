@@ -3,8 +3,12 @@ from discord import app_commands
 from random import randrange as rr
 import random
 import asyncio
+from dotenv import load_dotenv
+import os
 
-TOKEN = "YOUR BOT TOKEN"
+load_dotenv()
+
+TOKEN = os.getenv("BOT_TOKEN")
 CHARACTERS = [
     "旅人(元素任意)",
     "ジン",
