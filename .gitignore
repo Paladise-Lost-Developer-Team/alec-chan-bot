@@ -162,3 +162,4 @@ cython_debug/
 # others
 uid.json
 party_code.json
+.env
